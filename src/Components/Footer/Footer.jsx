@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png"
 const Footer = () => {
   return (
     <div className=" bg-[#b9c6ae]">
-      <footer className="container !mx-auto justify-items-center footer text-base-content border-base-300 border-b lg:px-20 py-8">
+      <footer className="container !mx-auto justify-items-center footer text-base-content border-white opacity-70 border-b lg:px-20 py-8">
         <div className="hero-content w-full text-center">
           <div className="w-10/12 flex flex-col justify-center items-center gap-2">
           <img src={logo} alt="" className="" />

@@ -1,14 +1,3 @@
-.active {
-    
-    background-color: #848b93;
-    color: #140d0d;
-    border-radius: 8px;
-
-}
-
-.nav-hover:hover {
-    background-color: #111111;
-    border-radius: 8px;
-    color: #ffffff;
-    
-}
+.nav-hover {
+    color: #b9c6ae;
+  }

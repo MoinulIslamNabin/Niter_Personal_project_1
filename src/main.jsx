@@ -8,19 +8,23 @@ import {
 import Home from './Components/Home/Home';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import MainLayOut from './Components/MainLayOut/MainLayOut';
+import Routine from './Components/Home/Routine/Routine';
+import Docs from './Components/Home/Docs/Docs';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayOut></MainLayOut>,
-    errorElement: <ErrorPage></ErrorPage>,
+    element: <MainLayOut />, // Main layout wraps Home and Docs
+    errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
-        element: <Home></Home>,
-      },
+        path: "/", // Home route
+        element: <Home />
+      }
     ]
   },
+
 ]);
 
 createRoot(document.getElementById('root')).render(
