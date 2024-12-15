@@ -4,7 +4,7 @@ import Docs from "./Docs/Docs";
 import "./Home.css";
 
 const Home = () => {
-  const [isActive, setIsActive] = useState("routine");
+  const [isActive, setIsActive] = useState("docs");
 
   return (
     <>
@@ -13,6 +13,16 @@ const Home = () => {
           role="tablist"
           className=" pt-4 flex gap-4 justify-center items-center"
         >
+           <button
+            onClick={() => setIsActive("docs")}
+            className={`text-base font-bold bg-transparent ${
+              isActive === "docs"
+                ? "  underline text-[#140d0d] "
+                : " text-[#b9c6ae] nav-hover"
+            }`}
+          >
+            Docs
+          </button>
           <button
             onClick={() => setIsActive("routine")}
             className={`bg-transparent text-base font-bold ${
@@ -22,16 +32,6 @@ const Home = () => {
             }`}
           >
             Routine
-          </button>
-          <button
-            onClick={() => setIsActive("docs")}
-            className={`text-base font-bold bg-transparent ${
-              isActive === "docs"
-                ? "  underline text-[#140d0d] "
-                : " text-[#b9c6ae] nav-hover"
-            }`}
-          >
-            Docs
           </button>
         </div>
       </div>

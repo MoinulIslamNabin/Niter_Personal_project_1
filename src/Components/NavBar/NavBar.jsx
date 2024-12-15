@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <a className="cursor-pointer text-xl text-black font-bold georama">
         <Link to={"/"}>
-          <img src={logo} alt="" className="w-52" />
+          <img src={logo} alt="" className="w-36 md:w-52" />
         </Link>
       </a>
     </>

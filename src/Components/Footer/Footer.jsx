@@ -13,7 +13,7 @@ const Footer = () => {
       <footer className="container !mx-auto justify-items-center footer text-base-content border-white opacity-70 border-b lg:px-20 py-8">
         <div className="hero-content w-full text-center">
           <div className="w-10/12 flex flex-col justify-center items-center gap-2">
-            <img src={logo} alt="" className="" />
+            <img src={logo} alt="" className="md:w-auto w-3/4" />
             <p className="w-auto lg:w-8/12 text-center text-base text-black font-medium">
               Website Under development. If you are a Web Developer/Web designer
               please contact me.

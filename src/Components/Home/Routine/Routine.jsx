@@ -6,7 +6,7 @@ const Routine = () => {
       <div className="overflow-x-auto">
         <table className="table-auto w-full border-collapse border border-gray-300 my-4 bg-white">
           <caption className="caption-top text-lg font-semibold text-gray-800">
-            NITER 14th Batch [CSE] Level 1 Term 1 Routine
+            NITER 14th Batch [CSE] Level 1 Term 1 [SEC-B] Routine
           </caption>
           <thead className="bg-blue-500 text-white">
             <tr>
