@@ -11,7 +11,7 @@ const Books = () => {
         <title>Books</title>
       </Helmet>
       <div className="h-screen">
-        <div className="mt-[5.25rem]">
+        <div className="mt-[4.25rem] md:mt-[5.25rem]">
           <div className=" pt-4 flex gap-4 justify-center items-center">
             <button
               onClick={() => {
