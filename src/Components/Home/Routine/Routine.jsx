@@ -60,7 +60,13 @@ const Routine = () => {
             <tr className="text-black text-center bg-blue-200">
               <td className="py-2 font-bold px-4 border">SUN</td>
               <td className="py-2 px-4 border">
-                <span >MATH-1105</span>
+                
+              </td>
+              <td className="py-2 px-4 border"></td>
+              <td className="py-2 px-4 border"></td>
+              
+              <td className="py-2 px-4 border">
+              <span >MATH-1105</span>
                 <br />
                 <span >B</span>
                 <br />
@@ -68,10 +74,21 @@ const Routine = () => {
                 <br />
                 <span className="px-1 text-white bg-cyan-800">307</span>
               </td>
-              <td className="py-2 px-4 border"></td>
+              <td className="py-2 px-4 border">
+              <span >EEE-1103</span>
+                <br />
+                <span >B</span>
+                <br />
+                <span >MTZ</span>
+                <br />
+                <span className="px-1 text-white bg-cyan-800">307</span>
+              </td>
+              <td className="py-2 px-4 border">
+                
+              </td>
               <td className="border flex items-center flex-col">
                 <tr className="text-black text-center lg:px-10 bg-lime-200">
-                  <td className="p-2">
+                  <td className="py-2">
                     <span >CSE-1111</span>
                     <br />
                     <span >B2</span>
@@ -82,7 +99,7 @@ const Routine = () => {
                   </td>
                 </tr>
                 <tr className="text-black text-center lg:px-10 bg-violet-200">
-                  <td className="p-2">
+                  <td className="py-2">
                     <span >CSE-1111</span>
                     <br />
                     <span >B1</span>
@@ -93,18 +110,6 @@ const Routine = () => {
                   </td>
                 </tr>
               </td>
-              <td className="py-2 px-4 border"></td>
-              <td className="py-2 px-4 border"></td>
-              <td className="py-2 px-4 border">
-                <span >EEE-1103</span>
-                <br />
-                <span >B</span>
-                <br />
-                <span >MTZ</span>
-                <br />
-                <span className="px-1 text-white bg-red-700">305</span>
-              </td>
-              <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
             </tr>
             <tr className="text-black text-center bg-orange-200">
