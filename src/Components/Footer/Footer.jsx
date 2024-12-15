@@ -22,9 +22,9 @@ const Footer = () => {
         </div>
       </footer>
 
-      <footer className="justify-items-center items-start footer text-base-content py-10 px-14">
+      <footer className="justify-items-center items-start footer text-base-content py-6 md:py-10 px-4 md:px-14">
         <nav className="justify-items-center">
-          <h6 className="footer-title opacity-100 text-lg !text-white font-bold">
+          <h6 className="footer-title opacity-100 text-base md:text-lg !text-white font-bold">
             Socials
           </h6>
           <div className="tooltip grid grid-flow-col gap-4">
@@ -48,7 +48,7 @@ const Footer = () => {
 
         <nav className="flex gap-4 justify-center items-center">
           <div className="flex flex-col">
-            <h6 className="footer-title opacity-100 text-lg !text-white font-bold">
+            <h6 className="footer-title opacity-100 text-base md:text-lg !text-white font-bold">
               Moinul Islam Nabin
             </h6>
 
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
 
           <div className="avatar">
-            <div className="w-16 rounded-full">
+            <div className="w-12 md:w-16 rounded-full">
               <img src={me} />
             </div>
           </div>
