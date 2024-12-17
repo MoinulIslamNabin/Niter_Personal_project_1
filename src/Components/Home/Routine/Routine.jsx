@@ -28,7 +28,7 @@ const Routine = () => {
                   <div className="modal-action flex justify-center w-full">
                     <form method="dialog">
                       <button
-                        className="px-36 btn bg-[#b9c6ae] text-black hover:text-white glass"
+                        className="px-12 md:px-36 btn bg-[#b9c6ae] text-black hover:text-white glass"
                         onClick={() =>
                           document.getElementById("my_modal_2").close()
                         }
