@@ -7,6 +7,23 @@ const Routine = () => {
         <table className="table-auto w-full border-collapse border border-gray-300 my-4 bg-white">
           <caption className="caption-top text-lg font-semibold text-gray-800">
             NITER 14th Batch [CSE] Level 1 Term 1 [SEC-B] Routine
+            <br />
+            
+            <span className="text-gray-400">All classes will begin 30 minutes later than their scheduled time
+            until further notice</span>
+            
+          </caption>
+          <caption class="caption-bottom text-lg font-semibold text-gray-800">
+            
+           
+            <div className="bg-violet-200">
+              <span className="text-white px-2 bg-violet-950">B1</span>{" "}
+              <span>CS 2405050 - CS 2405074</span>
+            </div>
+            <div className="bg-lime-200">
+              <span className="text-white px-2 bg-lime-900">B2</span>{" "}
+              <span>CS 2405075 - CS 2405098</span>
+            </div>
           </caption>
           <thead className="bg-blue-500 text-white">
             <tr>
@@ -25,31 +42,31 @@ const Routine = () => {
             <tr className="text-black text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border ">SAT</td>
               <td className="py-2 px-4 border">
-                <span >MATH-1105</span>
+                <span>MATH-1105</span>
                 <br />
                 <span>B</span>
                 <br />
-                <span >AS</span>
+                <span>AS</span>
                 <br />
-                <span className="px-1 text-white bg-red-700" >305</span>
+                <span className="px-1 text-white bg-red-700">305</span>
               </td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
-                <span >CSE-1102</span>
+                <span>CSE-1102</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span >JTT</span>
+                <span>JTT</span>
                 <br />
                 <span className="px-1 text-white bg-red-700">305</span>
               </td>
               <td className="py-2 px-4 border">
-                <span >SS-1106</span>
+                <span>SS-1106</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span >AAs</span>
+                <span>AAs</span>
                 <br />
                 <span className="px-1 text-white bg-red-700">305</span>
               </td>
@@ -59,54 +76,52 @@ const Routine = () => {
             </tr>
             <tr className="text-black text-center bg-blue-200">
               <td className="py-2 font-bold px-4 border">SUN</td>
-              <td className="py-2 px-4 border">
-                
-              </td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
-              
+              <td className="py-2 px-4 border"></td>
+
               <td className="py-2 px-4 border">
-              <span >MATH-1105</span>
+                <span>MATH-1105</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span >AS</span>
+                <span>AS</span>
                 <br />
                 <span className="px-1 text-white bg-cyan-800">307</span>
               </td>
               <td className="py-2 px-4 border">
-              <span >EEE-1103</span>
+                <span>EEE-1103</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span >MTZ</span>
+                <span>MTZ</span>
                 <br />
                 <span className="px-1 text-white bg-cyan-800">307</span>
               </td>
-              <td className="py-2 px-4 border">
-                
-              </td>
+              <td className="py-2 px-4 border"></td>
               <td className="border flex items-center flex-col">
                 <tr className="text-black text-center lg:px-10 bg-lime-200">
                   <td className="py-2">
-                    <span >CSE-1111</span>
+                    <span>CSE-1111</span>
                     <br />
-                    <span >B2</span>
+                    <span>B2</span>
                     <br />
-                    <span >SS</span>
+                    <span>SS</span>
                     <br />
                     <span className="px-1 text-white bg-green-900">AC-202</span>
                   </td>
                 </tr>
                 <tr className="text-black text-center lg:px-10 bg-violet-200">
                   <td className="py-2">
-                    <span >CSE-1111</span>
+                    <span>CSE-1111</span>
                     <br />
-                    <span >B1</span>
+                    <span>B1</span>
                     <br />
-                    <span >TA</span>
+                    <span>TA</span>
                     <br />
-                    <span className="px-1 text-white bg-violet-950">AC-205</span>
+                    <span className="px-1 text-white bg-violet-950">
+                      AC-205
+                    </span>
                   </td>
                 </tr>
               </td>
@@ -115,31 +130,31 @@ const Routine = () => {
             <tr className="text-black text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border">MON</td>
               <td className="py-2 px-4 border">
-                <span >SS-1106</span>
+                <span>SS-1106</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span >AAs</span>
+                <span>AAs</span>
                 <br />
                 <span className="px-1 text-white bg-red-700">307</span>
               </td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
-                <span >EEE-1103</span>
+                <span>EEE-1103</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span >MTZ</span>
+                <span>MTZ</span>
                 <br />
                 <span className="px-1 text-white bg-red-700">305</span>
               </td>
               <td className="py-2 px-4 border">
-                <span >CHE-1104</span>
+                <span>CHE-1104</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span ></span>
+                <span></span>
                 <br />
                 <span className="px-1 text-white bg-red-700">210</span>
               </td>
@@ -150,44 +165,42 @@ const Routine = () => {
             <tr className="text-black text-center bg-blue-200">
               <td className="py-2 font-bold px-4 border">TUE</td>
               <td className="py-2 px-4 border"></td>
-              <td className="py-2 px-4 border">
-                <span >EEE-1113</span>
+              <td className="py-2 px-4 border bg-violet-200">
+                <span>EEE-1113</span>
                 <br />
-                <span >B1</span>
+                <span>B1</span>
                 <br />
-                <span >MR</span>
+                <span>MR</span>
                 <br />
-                <span className="px-1 text-white bg-cyan-800">AC-126</span>
+                <span className="px-1 text-white bg-violet-950">AC-126</span>
               </td>
-              <td className="py-2 px-4 border">
-                <span >EEE-1113</span>
+              <td className="py-2 px-4 border bg-lime-200">
+                <span>EEE-1113</span>
                 <br />
-                <span >B2</span>
+                <span>B2</span>
                 <br />
-                <span >MTZ</span>
+                <span>MTZ</span>
                 <br />
-                <span className="px-1 text-white bg-cyan-800">AC-126</span>
+                <span className="px-1 text-white bg-lime-900">AC-126</span>
               </td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
-                <span >CSE-1101</span>
+                <span>CSE-1101</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span >MUS</span>
+                <span>MUS</span>
                 <br />
                 <span className="px-1 text-white bg-cyan-800">101</span>
               </td>
+              <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
-                
-              </td>
-              <td className="py-2 px-4 border">
-              <span>CSE-1102</span>
+                <span>CSE-1102</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span >JTT</span>
+                <span>JTT</span>
                 <br />
                 <span className="px-1 text-white bg-cyan-800">305</span>
               </td>
@@ -195,11 +208,11 @@ const Routine = () => {
             <tr className="text-black text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border">WED</td>
               <td className="py-2 px-4 border">
-                <span >CSE-1101</span>
+                <span>CSE-1101</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span >MUS</span>
+                <span>MUS</span>
                 <br />
                 <span className="px-1 text-white bg-red-700">101</span>
               </td>
@@ -207,42 +220,43 @@ const Routine = () => {
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
-                <span >CHE-1104</span>
+                <span>CHE-1104</span>
                 <br />
-                <span >B</span>
+                <span>B</span>
                 <br />
-                <span ></span>
+                <span></span>
                 <br />
                 <span className="px-1 text-white bg-red-700">AC-215</span>
               </td>
               <td className="py-2 px-4 border"></td>
               <td className="border flex items-center flex-col">
-                <tr className="text-black text-center lg:px-10 bg-lime-200">
-                  <td className="py-2">
-                    <span >CHE-1114</span>
-                    <br />
-                    <span >B1</span>
-                    <br />
-                    <span >DI</span>
-                    <br />
-                    <span className="px-1 text-white bg-lime-900">AC-109</span>
-                  </td>
-                </tr>
                 <tr className="text-black text-center lg:px-10 bg-violet-200">
                   <td className="py-2">
-                    <span >CHE-1114</span>
+                    <span>CHE-1114</span>
                     <br />
-                    <span >B2</span>
+                    <span>B1</span>
                     <br />
-                    <span >LY</span>
+                    <span>DI</span>
                     <br />
-                    <span className="px-1 text-white bg-violet-950">AC-214</span>
+                    <span className="px-1 text-white bg-violet-950">
+                      AC-109
+                    </span>
+                  </td>
+                </tr>
+                <tr className="text-black text-center lg:px-10 bg-lime-200 ">
+                  <td className="py-2">
+                    <span>CHE-1114</span>
+                    <br />
+                    <span>B2</span>
+                    <br />
+                    <span>LY</span>
+                    <br />
+                    <span className="px-1 text-white bg-lime-900">AC-214</span>
                   </td>
                 </tr>
               </td>
               <td className="py-2 px-4 border"></td>
             </tr>
-            
           </tbody>
         </table>
       </div>
