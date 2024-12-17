@@ -1,4 +1,5 @@
 import React from "react";
+import TeacherDetails from "./TeacherDetails/TeacherDetails";
 
 const Routine = () => {
   return (
@@ -8,14 +9,37 @@ const Routine = () => {
           <caption className="caption-top text-lg font-semibold text-gray-800">
             NITER 14th Batch [CSE] Level 1 Term 1 [SEC-B] Routine
             <br />
-            
-            <span className="text-gray-400">All classes will begin 30 minutes later than their scheduled time
-            until further notice</span>
-            
+            <span className="text-gray-400">
+              All classes will begin 30 minutes later than their scheduled time
+              until further notice
+            </span>
           </caption>
           <caption class="caption-bottom text-lg font-semibold text-gray-800">
-            
-           
+            <span
+              className="underline cursor-pointer hover:text-blue-500"
+              onClick={() => document.getElementById("my_modal_2").showModal()}
+            >
+              <dialog id="my_modal_2" className="modal">
+                <div className="modal-box bg-white w-11/12 max-w-5xl">
+                  <h3 className="font-bold text-lg">Teacher Name Short List</h3>
+                  <TeacherDetails></TeacherDetails>
+                  <div className="modal-action flex justify-center w-full">
+                    <form method="dialog">
+                      <button
+                        className="px-36 btn bg-[#b9c6ae] text-black hover:text-white glass"
+                        onClick={() =>
+                          document.getElementById("my_modal_2").close()
+                        } 
+                      >
+                        Close
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+              Teacher Name Short List
+            </span>
+
             <div className="bg-violet-200">
               <span className="text-white px-2 bg-violet-950">B1</span>{" "}
               <span>CS 2405050 - CS 2405074</span>
