@@ -87,21 +87,21 @@ const TeacherDetails = () => {
         <table className="min-w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-blue-600 text-white">
-              <th className="border border-gray-300 px-4 py-2">Course</th>
-              <th className="border border-gray-300 px-4 py-2">Course Title</th>
-              <th className="border border-gray-300 px-4 py-2">Short</th>
-              <th className="border border-gray-300 px-4 py-2">Teacher</th>
-              <th className="border border-gray-300 px-4 py-2">Phone and Email</th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Course</th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Course Title</th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Short</th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Teacher</th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Phone and Email</th>
             </tr>
           </thead>
           <tbody>
             {tableData.map((row, index) => (
               <tr key={index} className={index % 2 === 0 ? "bg-stone-200" : "bg-amber-200"}>
-                <td className="text-black border border-gray-300 px-4 py-2">{row.course}</td>
-                <td className="text-black border border-gray-300 px-4 py-2">{row.title}</td>
-                <td className="text-black border border-gray-300 px-4 py-2">{row.short}</td>
-                <td className="text-black border border-gray-300 px-4 py-2">{row.teacher}</td>
-                <td className="text-black border border-gray-300 px-4 py-2 whitespace-pre-line">{row.contact}</td>
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">{row.course}</td>
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">{row.title}</td>
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">{row.short}</td>
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">{row.teacher}</td>
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2 whitespace-pre-line">{row.contact}</td>
               </tr>
             ))}
           </tbody>

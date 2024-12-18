@@ -28,7 +28,7 @@ const Routine = () => {
                   <div className="modal-action flex justify-center w-full">
                     <form method="dialog">
                       <button
-                        className="px-12 md:px-36 btn bg-[#b9c6ae] text-black hover:text-white glass"
+                        className="px-12 md:px-36 btn bg-gradient-to-tr from-blue-500 to bg-cyan-200 text-black hover:text-white glass"
                         onClick={() =>
                           document.getElementById("my_modal_2").close()
                         }
@@ -51,7 +51,7 @@ const Routine = () => {
               <span>CS 2405075 - CS 2405098</span>
             </div>
           </caption>
-          <thead className="bg-blue-500 text-white">
+          <thead className="bg-blue-500 text-white text-xs md:text-base">
             <tr>
               <th className="py-2 px-4 border">Day</th>
               <th className="py-2 px-4 border">8:00 AM - 9:15 AM</th>
@@ -65,7 +65,7 @@ const Routine = () => {
             </tr>
           </thead>
           <tbody>
-            <tr className="text-black text-center bg-orange-200">
+            <tr className="text-black text-xs md:text-base text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border ">SAT</td>
               <td className="py-2 px-4 border">
                 <span>MATH-1105</span>
@@ -137,7 +137,7 @@ const Routine = () => {
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
             </tr>
-            <tr className="text-black text-center bg-blue-200">
+            <tr className="text-black text-xs md:text-base text-center bg-blue-200">
               <td className="py-2 font-bold px-4 border">SUN</td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
@@ -240,7 +240,7 @@ const Routine = () => {
               </td>
               <td className="py-2 px-4 border"></td>
             </tr>
-            <tr className="text-black text-center bg-orange-200">
+            <tr className="text-black text-xs md:text-base text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border">MON</td>
               <td className="py-2 px-4 border">
                 <span>SS-1106</span>
@@ -301,7 +301,7 @@ const Routine = () => {
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
             </tr>
-            <tr className="text-black text-center bg-blue-200">
+            <tr className="text-black text-xs md:text-base text-center bg-blue-200">
               <td className="py-2 font-bold px-4 border">TUE</td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border bg-violet-200">
@@ -394,7 +394,7 @@ const Routine = () => {
                 <span className="px-1 text-white bg-cyan-800">305</span>
               </td>
             </tr>
-            <tr className="text-black text-center bg-orange-200">
+            <tr className="text-black text-xs md:text-base text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border">WED</td>
               <td className="py-2 px-4 border">
                 <span>CSE-1101</span>
