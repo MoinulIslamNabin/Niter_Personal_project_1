@@ -11,7 +11,7 @@ const Questions = () => {
         <title>Questions</title>
       </Helmet>
       <div className="h-screen flex flex-col justify-between">
-        <div className="mt-[5.25rem]">
+        <div className="mt-[4.25rem] md:mt-[6rem]">
           <div className=" pt-4 flex gap-4 justify-center items-center">
             <button
               onClick={() => {
