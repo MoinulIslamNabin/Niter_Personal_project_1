@@ -9,7 +9,7 @@ import me from "../../assets/me.jpg";
 
 const Footer = () => {
   return (
-    <div className=" bg-gradient-to-l from-blue-500 via-cyan-200 to-blue-500">
+    <div className="bg-gradient-to-l from-blue-500 via-cyan-200 to-blue-500">
       <footer className="container !mx-auto justify-items-center footer text-base-content border-white opacity-70 border-b lg:px-20 py-8">
         <div className="hero-content w-full text-center">
           <div className="w-10/12 flex flex-col justify-center items-center gap-2">

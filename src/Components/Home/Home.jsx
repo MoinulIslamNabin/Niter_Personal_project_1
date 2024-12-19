@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="mt-[4.5rem] md:mt-[6rem]">
+      <div className=" mt-[4.5rem] md:mt-[6rem]">
         <div
           role="tablist"
           className=" pt-4 flex gap-4 justify-center items-center"
