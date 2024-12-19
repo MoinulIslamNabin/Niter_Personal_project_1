@@ -113,7 +113,7 @@ const Drawer = () => {
         </div>
       </div>
       {/* right */}
-      <div className="z-10 fixed -right-[237px] top-[45%] md:top-[30%]  md:hover:translate-x-[-237px] hover:translate-x-[-235px] ease-in-out duration-1000 group">
+      <div className="z-10 fixed -right-[237px] top-[45%] md:top-[30%]  md:hover:translate-x-[-239px] hover:translate-x-[-237px] ease-in-out duration-1000 group">
         <div className="card bg-gradient-to-r from-cyan-200 to-blue-500 relative">
           <div className="card-body pt-3 pb-6 px-6 items-center justify-center text-left">
             <h2 className="card-title text-black font-bold">
