@@ -5,6 +5,7 @@ import whatsapp from "../../assets/whatsapp.png";
 const Drawer = () => {
   return (
     <>
+    {/* left */}
       <div className="z-10 fixed -left-[250px] md:-left-[447px] top-[17%] md:top-1/4  md:hover:translate-x-[450px] hover:translate-x-[250px] ease-in-out duration-1000 group">
         <div className="card bg-gradient-to-r from-cyan-200 to-blue-500 relative">
           <div className="card-body pt-3 pb-6 px-6 items-center justify-center text-left">
@@ -108,6 +109,52 @@ const Drawer = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      {/* right */}
+      <div className="z-10 fixed -right-[237px] top-[45%] md:top-[30%]  md:hover:translate-x-[-237px] hover:translate-x-[-235px] ease-in-out duration-1000 group">
+        <div className="card bg-gradient-to-r from-cyan-200 to-blue-500 relative">
+          <div className="card-body pt-3 pb-6 px-6 items-center justify-center text-left">
+            <h2 className="card-title text-black font-bold">
+              Section Coordinator
+            </h2>
+            <div
+              role="tablist"
+              className="tabs tabs-lifted absolute left-0 top-1/2 transform -translate-x-3/4 -translate-y-1/2 flex flex-col justify-center items-center"
+            >
+              <a
+                role="tab"
+                className="tab [--tab-bg:transparent] [--tab-border-color:transparent]"
+              ></a>
+              <a
+                role="tab"
+                className="-rotate-90 tab font-semibold  text-sm md:text-base  text-black [--tab-bg:#a5f3fc] [--tab-border-color:#a5f3fc] tab-active before:bg-top"
+              >
+                <img
+                  src={icon}
+                  alt=""
+                  className="transition-all duration-500 ease-in-out group-hover:rotate-180"
+                />
+              </a>
+              <a
+                role="tab"
+                className="tab [--tab-bg:transparent] [--tab-border-color:transparent]"
+              ></a>
+            </div>
+            <div className="flex flex-col gap-1">
+                  <div className="flex gap-2 justify-center items-center">
+                    <h5 className="text-sm md:text-base text-center text-black opacity-85 font-medium">
+                    Tanvir Ahmed
+                    </h5>
+                  </div>
+                  <div className="flex gap-2 justify-center items-center">
+                    <img src={whatsapp} />
+                    <h5 className="text-base text-black font-medium opacity-70 hover:underline">
+                      01764199948
+                    </h5>
+                  </div>
+                </div>
           </div>
         </div>
       </div>

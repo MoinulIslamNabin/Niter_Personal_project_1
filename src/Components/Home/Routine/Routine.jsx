@@ -5,7 +5,7 @@ import "./Routine.css";
 
 const Routine = () => {
   return (
-    <div className="lg:h-screen container mx-auto py-4 px-2">
+    <div className=" container mx-auto py-4 px-2">
       <div className="overflow-x-auto">
         <table className="table-auto w-full border-collapse border border-gray-300 my-4 bg-white">
           <caption className="caption-top text-lg font-semibold text-gray-800">
