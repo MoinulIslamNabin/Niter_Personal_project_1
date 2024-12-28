@@ -5,7 +5,7 @@ import whatsapp from "../../assets/whatsapp.png";
 const Drawer = () => {
   return (
     <>
-    {/* left */}
+      {/* left */}
       <div className="z-10 fixed -left-[250px] md:-left-[447px] top-[17%] md:top-1/4  md:hover:translate-x-[450px] hover:translate-x-[250px] ease-in-out duration-1000 group">
         <div className="card bg-gradient-to-r from-cyan-200 to-blue-500 relative">
           <div className="card-body pt-3 pb-6 px-6 items-center justify-center text-left">
@@ -143,18 +143,18 @@ const Drawer = () => {
               ></a>
             </div>
             <div className="flex flex-col gap-1">
-                  <div className="flex gap-2 justify-center items-center">
-                    <h5 className="text-sm md:text-base text-center text-black opacity-85 font-medium">
-                    Tanvir Ahmed
-                    </h5>
-                  </div>
-                  <div className="flex gap-2 justify-center items-center">
-                    <img src={whatsapp} />
-                    <h5 className="text-base text-black font-medium opacity-70 hover:underline">
-                      01764199948
-                    </h5>
-                  </div>
-                </div>
+              <div className="flex gap-2 justify-center items-center">
+                <h5 className="text-sm md:text-base text-center text-black opacity-85 font-medium">
+                  Tanvir Ahmed
+                </h5>
+              </div>
+              <div className="flex gap-2 justify-center items-center">
+                <img src={whatsapp} />
+                <h5 className="text-base text-black font-medium opacity-70 hover:underline">
+                  01764199948
+                </h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>

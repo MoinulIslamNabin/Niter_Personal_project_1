@@ -75,10 +75,17 @@ const TeacherDetails = () => {
     {
       course: "SS-1106",
       title: "Government and Public Administration",
+      short: "KN",
+      teacher: "Kamrun Nahar",
+      contact: "01521200063\nknahar@niter.edu.bd",
+    },
+    {
+      course: "SS-1106",
+      title: "Government and Public Administration",
       short: "AAs",
       teacher: "Alvy Al Srijohn",
       contact: "01703757057\nasrijohn@niter.edu.bd",
-    },
+    }
   ];
 
   return (
