@@ -230,7 +230,7 @@ const Routine = () => {
                     </span>
                     <br />
                     <span className="px-1 text-white bg-violet-950">
-                      AC-205
+                      AC-217
                     </span>
                   </td>
                 </tr>
@@ -258,7 +258,7 @@ const Routine = () => {
                   JTT
                 </span>
                 <br />
-                <span className="px-1 text-white bg-red-700">307</span>
+                <span className="px-1 text-white bg-red-700">210</span>
               </td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
@@ -282,7 +282,7 @@ const Routine = () => {
                 </span>
 
                 <br />
-                <span className="px-1 text-white bg-red-700">305</span>
+                <span className="px-1 text-white bg-red-700">210</span>
               </td>
               <td className="py-2 px-4 border">
                 <span>CHE-1104</span>
@@ -363,7 +363,7 @@ const Routine = () => {
                   MUS
                 </span>
                 <br />
-                <span className="px-1 text-white bg-cyan-800">307</span>
+                <span className="px-1 text-white bg-cyan-800">305</span>
               </td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
@@ -391,10 +391,11 @@ const Routine = () => {
             <tr className="text-black text-xs md:text-base text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border">WED</td>
               <td className="py-2 px-4 border"></td>
-              <td className="py-2 px-4 border bg-lime-200">
+              
+              <td className="py-2 px-4 border bg-violet-200">
                 <span>CHE-1114</span>
                 <br />
-                <span>B2</span>
+                <span>B1</span>
                 <br />
                 <span
                   className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900"
@@ -403,15 +404,14 @@ const Routine = () => {
                   }
                   data-tooltip-id="my-tooltip"
                   data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718099055.jpg' alt='Tooltip Image' />
-                  <span class='mx-auto font-bold'>Lilufar Yasmin</span>
+                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1716516135.jpg' alt='Tooltip Image' />
+                  <span class='mx-auto font-bold'>Md. Didarul Islam</span>
                 </div>"
-                  data-tooltip-content="Lilufar Yasmin"
                 >
-                  LY
+                  DI
                 </span>
                 <br />
-                <span className="px-1 text-white bg-lime-900">AC-109</span>
+                <span className="px-1 text-white bg-violet-950">AC-214</span>
               </td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
@@ -442,13 +442,13 @@ const Routine = () => {
                 <br />
                 <span></span>
                 <br />
-                <span className="px-1 text-white bg-red-700">AC-215</span>
+                <span className="px-1 text-white bg-red-700">AC-305</span>
               </td>
               <td className="py-2 px-4 border"></td>
-              <td className="py-2 px-4 border bg-violet-200">
+              <td className="py-2 px-4 border bg-lime-200">
                 <span>CHE-1114</span>
                 <br />
-                <span>B1</span>
+                <span>B2</span>
                 <br />
                 <span
                   className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900"
@@ -457,14 +457,15 @@ const Routine = () => {
                   }
                   data-tooltip-id="my-tooltip"
                   data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1716516135.jpg' alt='Tooltip Image' />
-                  <span class='mx-auto font-bold'>Md. Didarul Islam</span>
+                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718099055.jpg' alt='Tooltip Image' />
+                  <span class='mx-auto font-bold'>Lilufar Yasmin</span>
                 </div>"
+                  data-tooltip-content="Lilufar Yasmin"
                 >
-                  DI
+                  LY
                 </span>
                 <br />
-                <span className="px-1 text-white bg-violet-950">AC-109</span>
+                <span className="px-1 text-white bg-lime-900">AC-214</span>
               </td>
 
               <td className="py-2 px-4 border"></td>
