@@ -5,9 +5,9 @@ const TeacherDetails = () => {
     {
       course: "CHE-1104",
       title: "Chemistry",
-      short: "—",
-      teacher: "—",
-      contact: "—",
+      short: "TK",
+      teacher: "Tajmin Khanam",
+      contact: " 01824649162\ntkhanam@niter.edu.bd",
     },
     {
       course: "CHE-1114",
@@ -19,9 +19,9 @@ const TeacherDetails = () => {
     {
       course: "CHE-1114",
       title: "Chemistry Lab",
-      short: "LY",
-      teacher: "Lilufar Yasmin",
-      contact: " 01753600063\nlyeasmin@niter.edu.bd",
+      short: "TK",
+      teacher: "Tajmin Khanam",
+      contact: " 01824649162\ntkhanam@niter.edu.bd",
     },
     {
       course: "CSE-1101",
@@ -85,7 +85,7 @@ const TeacherDetails = () => {
       short: "AAs",
       teacher: "Alvy Al Srijohn",
       contact: "01703757057\nasrijohn@niter.edu.bd",
-    }
+    },
   ];
 
   return (
@@ -94,21 +94,44 @@ const TeacherDetails = () => {
         <table className="min-w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-blue-600 text-white">
-              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Course</th>
-              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Course Title</th>
-              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Short</th>
-              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Teacher</th>
-              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">Phone and Email</th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">
+                Course
+              </th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">
+                Course Title
+              </th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">
+                Short
+              </th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">
+                Teacher
+              </th>
+              <th className="text-xs md:text-base border border-gray-300 px-4 py-2">
+                Phone and Email
+              </th>
             </tr>
           </thead>
           <tbody>
             {tableData.map((row, index) => (
-              <tr key={index} className={index % 2 === 0 ? "bg-stone-200" : "bg-amber-200"}>
-                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">{row.course}</td>
-                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">{row.title}</td>
-                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">{row.short}</td>
-                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">{row.teacher}</td>
-                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2 whitespace-pre-line">{row.contact}</td>
+              <tr
+                key={index}
+                className={index % 2 === 0 ? "bg-stone-200" : "bg-amber-200"}
+              >
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">
+                  {row.course}
+                </td>
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">
+                  {row.title}
+                </td>
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">
+                  {row.short}
+                </td>
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2">
+                  {row.teacher}
+                </td>
+                <td className="text-black text-xs md:text-base border border-gray-300 px-4 py-2 whitespace-pre-line">
+                  {row.contact}
+                </td>
               </tr>
             ))}
           </tbody>

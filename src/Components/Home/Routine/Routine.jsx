@@ -67,27 +67,29 @@ const Routine = () => {
           <tbody>
             <tr className="text-black text-xs md:text-base text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border ">SAT</td>
-              <td className="py-2 px-4 border">
-                <span>MATH-1105</span>
+              
+              <td className="py-2 px-4 border bg-violet-200">
+                <span>CHE-1114</span>
                 <br />
-                <span>B</span>
+                <span>B1</span>
                 <br />
                 <span
-                  className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900 "
+                  className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900"
                   onClick={() =>
                     document.getElementById("my_modal_2").showModal()
                   }
                   data-tooltip-id="my-tooltip"
                   data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-    <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1733107978.jpg' alt='Tooltip Image' />
-    <span class='mx-auto font-bold'>Afsana Akter Sheefa</span>
-  </div>"
+                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718099292.jpg' alt='Tooltip Image' />
+                  <span class='mx-auto font-bold'>Tajmin Khanam</span>
+                </div>"
                 >
-                  AS
+                  TK
                 </span>
                 <br />
-                <span className="px-1 text-white bg-red-700">305</span>
+                <span className="px-1 text-white bg-violet-950">AC-214</span>
               </td>
+
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
@@ -133,7 +135,27 @@ const Routine = () => {
                 <span className="px-1 text-white bg-red-700">305</span>
               </td>
               <td className="py-2 px-4 border"></td>
-              <td className="py-2 px-4 border"></td>
+              <td className="py-2 px-4 border bg-lime-200">
+                <span>CHE-1114</span>
+                <br />
+                <span>B2</span>
+                <br />
+                <span
+                  className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900"
+                  onClick={() =>
+                    document.getElementById("my_modal_2").showModal()
+                  }
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
+                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1716516135.jpg' alt='Tooltip Image' />
+                  <span class='mx-auto font-bold'>Md. Didarul Islam</span>
+                </div>"
+                >
+                  DI
+                </span>
+                <br />
+                <span className="px-1 text-white bg-lime-900">AC-214</span>
+              </td>
               <td className="py-2 px-4 border"></td>
             </tr>
             <tr className="text-black text-xs md:text-base text-center bg-blue-200">
@@ -186,30 +208,7 @@ const Routine = () => {
               </td>
               <td className="py-2 px-4 border"></td>
               <td className="border flex items-center flex-col">
-                <tr className="text-black text-center lg:px-10 bg-lime-200">
-                  <td className="py-2">
-                    <span>CSE-1111</span>
-                    <br />
-                    <span>B2</span>
-                    <br />
-                    <span
-                      className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900 "
-                      onClick={() =>
-                        document.getElementById("my_modal_2").showModal()
-                      }
-                      data-tooltip-id="my-tooltip"
-                      data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-    <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1715656563.jpg' alt='Tooltip Image' />
-    <span class='mx-auto font-bold'>Sadia Sajjad</span>
-  </div>"
-                    >
-                      SS
-                    </span>
-                    <br />
-                    <span className="px-1 text-white bg-green-900">AC-202</span>
-                  </td>
-                </tr>
-                <tr className="text-black text-center lg:px-10 bg-violet-200">
+              <tr className="text-black text-center lg:px-10 bg-violet-200">
                   <td className="py-2">
                     <span>CSE-1111</span>
                     <br />
@@ -234,6 +233,30 @@ const Routine = () => {
                     </span>
                   </td>
                 </tr>
+                <tr className="text-black text-center lg:px-10 bg-lime-200">
+                  <td className="py-2">
+                    <span>CSE-1111</span>
+                    <br />
+                    <span>B2</span>
+                    <br />
+                    <span
+                      className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900 "
+                      onClick={() =>
+                        document.getElementById("my_modal_2").showModal()
+                      }
+                      data-tooltip-id="my-tooltip"
+                      data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
+    <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1715656563.jpg' alt='Tooltip Image' />
+    <span class='mx-auto font-bold'>Sadia Sajjad</span>
+  </div>"
+                    >
+                      SS
+                    </span>
+                    <br />
+                    <span className="px-1 text-white bg-green-900">AC-202</span>
+                  </td>
+                </tr>
+                
               </td>
               <td className="py-2 px-4 border"></td>
             </tr>
@@ -289,7 +312,19 @@ const Routine = () => {
                 <br />
                 <span>B</span>
                 <br />
-                <span></span>
+                <span
+                  className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900"
+                  onClick={() =>
+                    document.getElementById("my_modal_2").showModal()
+                  }
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
+                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718099292.jpg' alt='Tooltip Image' />
+                  <span class='mx-auto font-bold'>Tajmin Khanam</span>
+                </div>"
+                >
+                  TK
+                </span>
                 <br />
                 <span className="px-1 text-white bg-red-700">210</span>
               </td>
@@ -385,34 +420,16 @@ const Routine = () => {
                   AAs
                 </span>
                 <br />
-                <span className="px-1 text-white bg-red-700">305</span>
+                <span className="px-1 text-white bg-cyan-800">305</span>
               </td>
             </tr>
             <tr className="text-black text-xs md:text-base text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border">WED</td>
               <td className="py-2 px-4 border"></td>
+              <td className="py-2 px-4 border"></td>
               
-              <td className="py-2 px-4 border bg-violet-200">
-                <span>CHE-1114</span>
-                <br />
-                <span>B1</span>
-                <br />
-                <span
-                  className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900"
-                  onClick={() =>
-                    document.getElementById("my_modal_2").showModal()
-                  }
-                  data-tooltip-id="my-tooltip"
-                  data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1716516135.jpg' alt='Tooltip Image' />
-                  <span class='mx-auto font-bold'>Md. Didarul Islam</span>
-                </div>"
-                >
-                  DI
-                </span>
-                <br />
-                <span className="px-1 text-white bg-violet-950">AC-214</span>
-              </td>
+
+              
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
                 <span>CSE-1101</span>
@@ -440,16 +457,6 @@ const Routine = () => {
                 <br />
                 <span>B</span>
                 <br />
-                <span></span>
-                <br />
-                <span className="px-1 text-white bg-red-700">AC-305</span>
-              </td>
-              <td className="py-2 px-4 border"></td>
-              <td className="py-2 px-4 border bg-lime-200">
-                <span>CHE-1114</span>
-                <br />
-                <span>B2</span>
-                <br />
                 <span
                   className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900"
                   onClick={() =>
@@ -457,17 +464,39 @@ const Routine = () => {
                   }
                   data-tooltip-id="my-tooltip"
                   data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718099055.jpg' alt='Tooltip Image' />
-                  <span class='mx-auto font-bold'>Lilufar Yasmin</span>
+                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718099292.jpg' alt='Tooltip Image' />
+                  <span class='mx-auto font-bold'>Tajmin Khanam</span>
                 </div>"
-                  data-tooltip-content="Lilufar Yasmin"
                 >
-                  LY
+                  TK
                 </span>
                 <br />
-                <span className="px-1 text-white bg-lime-900">AC-214</span>
+                <span className="px-1 text-white bg-red-700">305</span>
               </td>
+              <td className="py-2 px-4 border">
+                <span>MATH-1105</span>
+                <br />
+                <span>B</span>
+                <br />
+                <span
+                  className="cursor-pointer text-pink-600 font-bold hover:text-cyan-900 "
+                  onClick={() =>
+                    document.getElementById("my_modal_2").showModal()
+                  }
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
+    <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1733107978.jpg' alt='Tooltip Image' />
+    <span class='mx-auto font-bold'>Afsana Akter Sheefa</span>
+  </div>"
+                >
+                  AS
+                </span>
+                <br />
+                <span className="px-1 text-white bg-red-700">305</span>
+              </td>
+              
 
+              <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
             </tr>
           </tbody>
