@@ -54,20 +54,20 @@ const Routine = () => {
           <thead className="bg-blue-500 text-white text-xs md:text-base">
             <tr>
               <th className="py-2 px-4 border">Day</th>
-              <th className="py-2 px-4 border">8:00 AM - 9:15 AM</th>
-              <th className="py-2 px-4 border">8:00 AM - 10:30 AM</th>
-              <th className="py-2 px-4 border">10:30 AM - 1:00 PM</th>
-              <th className="py-2 px-4 border">10:30 AM - 11:45 AM</th>
-              <th className="py-2 px-4 border">11:45 AM - 1:00 PM</th>
-              <th className="py-2 px-4 border">1:00 PM - 2:15 PM</th>
-              <th className="py-2 px-4 border">1:30 PM - 4:00 PM</th>
-              <th className="py-2 px-4 border">2:15 PM - 3:30 PM</th>
+              <th className="py-2 px-4 border">8:30 AM - 9:45 AM</th>
+              <th className="py-2 px-4 border">8:30 AM - 11:00 AM</th>
+              <th className="py-2 px-4 border">11:00 AM - 1:30 PM</th>
+              <th className="py-2 px-4 border">11:00 AM - 12:15 PM</th>
+              <th className="py-2 px-4 border">12:15 PM - 1:30 PM</th>
+              <th className="py-2 px-4 border">1:30 PM - 2:45 PM</th>
+              <th className="py-2 px-4 border">2:00 PM - 4:30 PM</th>
+              <th className="py-2 px-4 border">2:45 PM - 4:00 PM</th>
             </tr>
           </thead>
           <tbody>
             <tr className="text-black text-xs md:text-base text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border ">SAT</td>
-              
+
               <td className="py-2 px-4 border bg-violet-200">
                 <span>CHE-1114</span>
                 <br />
@@ -208,7 +208,7 @@ const Routine = () => {
               </td>
               <td className="py-2 px-4 border"></td>
               <td className="border flex items-center flex-col">
-              <tr className="text-black text-center lg:px-10 bg-violet-200">
+                <tr className="text-black text-center lg:px-10 bg-violet-200">
                   <td className="py-2">
                     <span>CSE-1111</span>
                     <br />
@@ -256,7 +256,6 @@ const Routine = () => {
                     <span className="px-1 text-white bg-green-900">AC-202</span>
                   </td>
                 </tr>
-                
               </td>
               <td className="py-2 px-4 border"></td>
             </tr>
@@ -427,9 +426,7 @@ const Routine = () => {
               <td className="py-2 font-bold px-4 border">WED</td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
-              
 
-              
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
                 <span>CSE-1101</span>
@@ -494,7 +491,6 @@ const Routine = () => {
                 <br />
                 <span className="px-1 text-white bg-red-700">305</span>
               </td>
-              
 
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
