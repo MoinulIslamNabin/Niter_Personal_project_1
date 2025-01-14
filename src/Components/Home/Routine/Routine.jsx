@@ -10,11 +10,8 @@ const Routine = () => {
         <table className="table-auto w-full border-collapse border border-gray-300 my-4 bg-white">
           <caption className="caption-top text-lg font-semibold text-gray-800">
             NITER 14th Batch [CSE] Level 1 Term 1 [SEC-B] Routine
-            <br />
-            <span className="text-gray-400">
-              All classes will begin 30 minutes later than their scheduled time
-              until further notice
-            </span>
+            
+            
           </caption>
           <caption class="caption-bottom text-lg font-semibold text-gray-800">
             <span
