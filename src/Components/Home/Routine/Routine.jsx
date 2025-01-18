@@ -65,6 +65,8 @@ const Routine = () => {
             <tr className="text-black text-xs md:text-base text-center bg-orange-200">
               <td className="py-2 font-bold px-4 border ">SAT</td>
 
+              <td className="py-2 px-4 border"></td>
+
               <td className="py-2 px-4 border bg-violet-200">
                 <span>CHE-1114</span>
                 <br />
@@ -86,8 +88,6 @@ const Routine = () => {
                 <br />
                 <span className="px-1 text-white bg-violet-950">AC-214</span>
               </td>
-
-              <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border"></td>
               <td className="py-2 px-4 border">
                 <span>CSE-1102</span>
