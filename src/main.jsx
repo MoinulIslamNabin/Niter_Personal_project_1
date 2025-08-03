@@ -10,6 +10,7 @@ import Docs from "./Components/Home/Docs/Docs";
 import Books from "./Components/Home/Docs/Books/Books";
 import Note from "./Components/Home/Docs/Note/Note";
 import Questions from "./Components/Home/Docs/Questions/Questions";
+import App from "./App";
 
 const router = createBrowserRouter([
   {

@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
     <div className="overflow-x-scroll"> 
-      <AuroraBackgroundDemo></AuroraBackgroundDemo>
+      
     </div>
     
     {/* <Routine />
