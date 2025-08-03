@@ -145,9 +145,9 @@ const Routine = () => {
                 </span>
               </td>
 
-              <td className=" flex items-center "
+              <td className=" flex items-center flex-col lg:flex-row"
               >
-                <tr className="border-r w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
+                <tr className="border-b lg:border-r lg:border-b-0 w-full lg:w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
                   <td className="py-2">
                     <span>CSE-1211</span>
                     <br />
@@ -172,7 +172,7 @@ const Routine = () => {
                     </span>
                   </td>
                 </tr>
-                <tr className="w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
+                <tr className="w-full lg:w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
                   <td className="py-2">
                     <span>CSE-1211</span>
                     <br />
@@ -253,8 +253,8 @@ const Routine = () => {
                 </span>
               </td>
 
-              <td className="border-t flex items-center ">
-                <tr className="border-r w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
+              <td className="border-t flex items-center flex-col lg:flex-row ">
+                <tr className="border-b lg:border-r lg:border-b-0 w-full lg:w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
                   <td className="py-2">
                     <span>CSE-1212</span>
                     <br />
@@ -279,7 +279,7 @@ const Routine = () => {
                     </span>
                   </td>
                 </tr>
-                <tr className="w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
+                <tr className="w-full lg:w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
                   <td className="py-2">
                     <span>PHY-1213</span>
                     <br />
@@ -435,8 +435,8 @@ const Routine = () => {
                   AC-119
                 </span>
               </td>
-              <td className="flex items-center ">
-                <tr className="border-r w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
+              <td className="flex items-center flex-col lg:flex-row ">
+                <tr className="border-b lg:border-r lg:border-b-0 w-full lg:w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
                   <td className="py-2">
                     <span>PHY-1213</span>
                     <br />
@@ -461,7 +461,7 @@ const Routine = () => {
                     </span>
                   </td>
                 </tr>
-                <tr className="w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
+                <tr className="w-full lg:w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
                   <td className="py-2">
                     <span>CSE-1211</span>
                     <br />
@@ -540,8 +540,8 @@ const Routine = () => {
                 </span>
               </td>
               <td className="py-2 px-4 border"></td>
-              <td className="border-t flex items-center ">
-                <tr className="border-r w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
+              <td className="border-t flex items-center flex-col lg:flex-row ">
+                <tr className="border-b lg:border-r lg:border-b-0 w-full lg:w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
                   <td className="py-2">
                     <span>CSE-1211</span>
                     <br />
@@ -566,7 +566,7 @@ const Routine = () => {
                     </span>
                   </td>
                 </tr>
-                <tr className="w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
+                <tr className="w-full lg:w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
                   <td className="py-2">
                     <span>CSE-1212</span>
                     <br />

@@ -5,8 +5,8 @@ const Docs = () => {
   return (
     <>
       <div className="hero bg-transparent ">
-        <div className="hero-content flex-row-reverse">
-          <div className="lg:h-screen container mx-auto py-8 flex flex-col flex-wrap gap-4 justify-center content-end">
+        <div className="hero-content flex-col-reverse md:flex-row-reverse">
+          <div className="lg:h-screen container w-1/3 md:w-full mx-auto py-8 flex flex-col flex-wrap gap-4 justify-center content-end">
             {/* notes component and route replaced by drive link */}
             <Link
               target="_blank"
@@ -30,7 +30,7 @@ const Docs = () => {
           </div>
           <div>
             <h1
-              className="text-5xl font-bold text-white luckiest-guy"
+              className="text-xl md:text-3xl lg:text-5xl font-bold text-white luckiest-guy"
               style={{
                 textShadow: "0px 4px 8px #000B2B80, 0px 4px 4px #9F24A6",
               }}
