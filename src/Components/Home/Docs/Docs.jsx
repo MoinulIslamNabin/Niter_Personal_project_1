@@ -30,7 +30,7 @@ const Docs = () => {
           </div>
           <div>
             <h1
-              className="text-xl md:text-3xl lg:text-5xl font-bold text-white luckiest-guy"
+              className="text-center md:text-start text-xl md:text-3xl lg:text-5xl font-bold text-white luckiest-guy"
               style={{
                 textShadow: "0px 4px 8px #000B2B80, 0px 4px 4px #9F24A6",
               }}
