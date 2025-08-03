@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/lo1.png";
 import fb from "../../assets/facebook.png";
 import insta from "../../assets/instagram.png";
 import git from "../../assets/github.png";
@@ -9,12 +9,13 @@ import me from "../../assets/me.jpg";
 
 const Footer = () => {
   return (
-    <div className=" bg-gradient-to-l from-blue-500 via-cyan-200 to-blue-500">
-      <footer className="container !mx-auto justify-items-center footer text-base-content border-white opacity-70 border-b lg:px-20 py-8">
+    // <div className=" bg-gradient-to-l from-blue-500 via-cyan-200 to-blue-500">
+    <div className="bg-transparent">
+      <footer className="container !mx-auto justify-items-center footer text-base-content border-white opacity-70 border-y lg:px-20 py-8">
         <div className="hero-content w-full text-center">
           <div className="w-10/12 flex flex-col justify-center items-center gap-2">
             <img src={logo} alt="" className="md:w-auto w-3/4" />
-            <p className="w-auto lg:w-8/12 text-center text-base text-black font-medium">
+            <p className="w-auto lg:w-8/12 text-center text-base text-white font-medium">
               Website Under development. If you are a Web Developer/Web designer
               please contact me.
             </p>
@@ -24,7 +25,10 @@ const Footer = () => {
 
       <footer className="justify-items-center items-start footer text-base-content py-6 md:py-10 px-4 md:px-14">
         <nav className="justify-items-center">
-          <h6 className="footer-title opacity-100 text-base md:text-lg !text-black font-bold">
+          <h6 className="irish-grover footer-title opacity-100 text-base md:text-lg !text-white font-bold"
+          style={{
+                    textShadow: "0px 4px 8px #000B2B80, 0px 4px 4px #9F24A6",
+                  }}>
             Socials
           </h6>
           <div className="tooltip grid grid-flow-col gap-4">
@@ -48,7 +52,10 @@ const Footer = () => {
 
         <nav className="flex gap-4 justify-center items-center">
           <div className="flex flex-col">
-            <h6 className="footer-title opacity-100 text-base md:text-lg !text-black font-bold">
+            <h6 className="irish-grover footer-title opacity-100 text-base md:text-lg !text-white font-bold"
+            style={{
+                    textShadow: "0px 4px 8px #000B2B80, 0px 4px 4px #9F24A6",
+                  }}>
               Moinul Islam Nabin
             </h6>
 
@@ -56,7 +63,7 @@ const Footer = () => {
               <Link target="_blank" to={"https://mail.google.com"}>
                 <img src={mail} alt="" className="w-6" />
               </Link>
-              <p className="text-xs text-black/80">
+              <p className="text-xs text-white/80">
                 moinul.islam.nabin779@gmail.com
               </p>
             </div>

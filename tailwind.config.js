@@ -1,14 +1,27 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx}",
   ],
+  darkMode: "class", // or 'media' or false
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        aurora: "aurora 60s linear infinite",
+      },
+      keyframes: {
+        aurora: {
+          from: {
+            backgroundPosition: "50% 50%, 50% 50%",
+          },
+          to: {
+            backgroundPosition: "350% 50%, 350% 50%",
+          },
+        },
+      },
+    },
   },
-  plugins: [
-    require('daisyui'),
-  ],
-}
+  plugins: [require("daisyui")], // ← ADD daisyUI plugin here
+};
 

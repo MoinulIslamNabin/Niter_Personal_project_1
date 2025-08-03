@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: #e0eff3;
+  background: #000A2C;
   
+}
+
+.irish-grover{
+  font-family: "Irish Grover", system-ui;
+}
+
+.luckiest-guy{
+  font-family: "Luckiest Guy", cursive;
 }

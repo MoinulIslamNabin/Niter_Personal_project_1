@@ -2,13 +2,20 @@ import React, { useState } from "react";
 import Routine from "./Routine/Routine";
 import Docs from "./Docs/Docs";
 import "./Home.css";
+import { AuroraBackgroundDemo } from "../../BackGround";
 
 const Home = () => {
   const [isActive, setIsActive] = useState("docs");
 
   return (
     <>
-      <div className=" mt-[4.5rem] md:mt-[6rem]">
+    <div className="overflow-x-scroll"> 
+      <AuroraBackgroundDemo></AuroraBackgroundDemo>
+    </div>
+    
+    {/* <Routine />
+    <Docs /> */}
+      {/* <div className=" pt-[4.5rem] md:pt-[6rem]">
         <div
           role="tablist"
           className=" pt-4 flex gap-4 justify-center items-center"
@@ -36,7 +43,7 @@ const Home = () => {
         </div>
       </div>
       {isActive === "routine" && <Routine />}
-      {isActive === "docs" && <Docs />}
+      {isActive === "docs" && <Docs />} */}
     </>
   );
 };
