@@ -486,7 +486,7 @@ const Routine = () => {
                     </span>
                     <br />
                     <span className="px-1 text-red-400 irish-grover tracking-widest font-bold">
-                      AC-217
+                      AC-131
                     </span>
                   </td>
                 </tr>
