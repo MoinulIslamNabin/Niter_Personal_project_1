@@ -2,71 +2,78 @@ import React from "react";
 
 const TeacherDetails = () => {
   const tableData = [
-  {
-    course: "CSE-1202",
-    title: "Digital Logic Design",
-    short: "SS",
-    teacher: "Sadia Sazzad",
-    contact: "01741700037\nssazzad@niter.edu.bd", 
-  },
-  {
-    course: "CSE-1201",
-    title: "Fundamentals of Programming",
-    short: "MUS",
-    teacher: "Umme Sara",
-    contact: "01674668366\nusara@niter.edu.bd", 
-  },
-  {
-    course: "CSE-1211",
-    title: "Fundamentals of Programming Lab",
-    short: "SSH",
-    teacher: "Shakila Shafiq",
-    contact: "01991677002\nsshafiq@niter.edu.bd", 
-  },
-  {
-    course: "ENG-1205",
-    title: "Developing English Language Skills",
-    short: "MRA",
-    teacher: "Mst. Rahima Akter",
-    contact: "01537117554\nmrakter@niter.edu.bd", 
-  },
-  {
-    course: "ENG-1215",
-    title: "English Lab",
-    short: "MRA",
-    teacher: "Mst. Rahima Akter",
-    contact: "01537117554\nmrakter@niter.edu.bd", 
-  },
-  {
-    course: "PHY-1203",
-    title: "Physics",
-    short: "MSAM",
-    teacher: "Md. Shaheen Alam",
-    contact: "01706130080\nshaheen@niter.edu.bd", 
-  },
-  {
-    course: "MATH-1204",
-    title: "Mathematics",
-    short: "SKB",
-    teacher: "Dr. Sanjoy Kumar Biswas",
-    contact: "01725086203\ndskbiswas@niter.edu.bd", 
-  },
-  {
-    course: "CSE-1212",
-    title: "Digital Logic Design Lab",
-    short: "DK",
-    teacher: "Dipanjali Kundu",
-    contact: "01707075789\ndkundu@niter.edu.bd", 
-  },
-  ,
-  {
-    course: "PHY-1213",
-    title: "Physics Lab",
-    short: "MJI",
-    teacher: "Md. Jabed Iqbal",
-    contact: "01556593636\nmjiqbal@niter.edu.bd", 
-  }
-];
+    {
+      course: "CSE-1202",
+      title: "Digital Logic Design",
+      short: "SS",
+      teacher: "Sadia Sazzad",
+      contact: "01741700037\nssazzad@niter.edu.bd",
+    },
+    {
+      course: "CSE-1201",
+      title: "Fundamentals of Programming",
+      short: "MUS",
+      teacher: "Umme Sara",
+      contact: "01674668366\nusara@niter.edu.bd",
+    },
+    {
+      course: "CSE-1211",
+      title: "Fundamentals of Programming Lab",
+      short: "SSH",
+      teacher: "Shakila Shafiq",
+      contact: "01991677002\nsshafiq@niter.edu.bd",
+    },
+    {
+      course: "ENG-1205",
+      title: "Developing English Language Skills",
+      short: "MRA",
+      teacher: "Mst. Rahima Akter",
+      contact: "01537117554\nmrakter@niter.edu.bd",
+    },
+    {
+      course: "ENG-1215",
+      title: "English Lab",
+      short: "MRA",
+      teacher: "Mst. Rahima Akter",
+      contact: "01537117554\nmrakter@niter.edu.bd",
+    },
+    {
+      course: "PHY-1203",
+      title: "Physics",
+      short: "MSAM",
+      teacher: "Md. Shaheen Alam",
+      contact: "01706130080\nshaheen@niter.edu.bd",
+    },
+    {
+      course: "PHY-1203",
+      title: "Physics",
+      short: "DMAK",
+      teacher: "Dr. Md. Abul Kalam",
+      contact: "01942855065\nakalam@niter.edu.bd",
+    },
+    {
+      course: "MATH-1204",
+      title: "Mathematics",
+      short: "SKB",
+      teacher: "Shemanta Kumar Biswas",
+      contact: "01729909606\nshemanta@niter.edu.bd",
+    },
+    {
+      course: "CSE-1212",
+      title: "Digital Logic Design Lab",
+      short: "DK",
+      teacher: "Dipanjali Kundu",
+      contact: "01707075789\ndkundu@niter.edu.bd",
+    },
+    ,
+    {
+      course: "PHY-1213",
+      title: "Physics Lab",
+      short: "MJI",
+      teacher: "Md. Jabed Iqbal",
+      contact: "01556593636\nmjiqbal@niter.edu.bd",
+    },
+  ];
   // const tableData = [
   //   {
   //     course: "CHE-1104",
@@ -160,18 +167,10 @@ const TeacherDetails = () => {
         <table className="w-11/12 border-collapse overflow-hidden mt-4">
           <thead>
             <tr className="bg-blue-600 text-white">
-              <th className="text-xs md:text-base  px-4 py-2">
-                Course
-              </th>
-              <th className="text-xs md:text-base  px-4 py-2">
-                Course Title
-              </th>
-              <th className="text-xs md:text-base  px-4 py-2">
-                Short
-              </th>
-              <th className="text-xs md:text-base  px-4 py-2">
-                Teacher
-              </th>
+              <th className="text-xs md:text-base  px-4 py-2">Course</th>
+              <th className="text-xs md:text-base  px-4 py-2">Course Title</th>
+              <th className="text-xs md:text-base  px-4 py-2">Short</th>
+              <th className="text-xs md:text-base  px-4 py-2">Teacher</th>
               <th className="text-xs md:text-base  px-4 py-2">
                 Phone and Email
               </th>

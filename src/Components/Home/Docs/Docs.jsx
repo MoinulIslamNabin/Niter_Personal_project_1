@@ -11,7 +11,7 @@ const Docs = () => {
             <Link
               target="_blank"
               to={
-                "https://drive.google.com/drive/folders/158vArE9jO9wDeNfGKh46dLQgOS454SMK"
+                "https://drive.google.com/drive/folders/1yOGMWKUm9thXhdG-BOldevwkcpEV6jMx"
               }
               className="btn border-white hover:border-white bg-transparent font-medium text-white transition-colors transition-bg duration-300 ease-in-out hover:bg-gradient-to-tl hover:from-blue-600 hover:via-transparent hover:to-blue-600"
             >

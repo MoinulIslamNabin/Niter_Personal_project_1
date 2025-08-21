@@ -2,6 +2,7 @@ import React from "react";
 import TeacherDetails from "./TeacherDetails/TeacherDetails";
 import { Tooltip } from "react-tooltip";
 import "./Routine.css";
+import hijab from "../../../assets/hijab.png";
 
 const Routine = () => {
   return (
@@ -145,8 +146,7 @@ const Routine = () => {
                 </span>
               </td>
 
-              <td className=" flex items-center flex-col lg:flex-row"
-              >
+              <td className=" flex items-center flex-col lg:flex-row">
                 <tr className="border-b lg:border-r lg:border-b-0 w-full lg:w-1/2 flex justify-center text-white text-center lg:px-10 bg-transparent">
                   <td className="py-2">
                     <span>CSE-1211</span>
@@ -184,10 +184,12 @@ const Routine = () => {
                         document.getElementById("my_modal_2").showModal()
                       }
                       data-tooltip-id="my-tooltip"
-                      data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718182543.jpg' alt='Tooltip Image' />
-                  <span class='mx-auto font-bold'>Shakila Shafiq</span>
-                </div>"
+                      data-tooltip-html={`
+        <div class='p-2 flex flex-col gap-3 justify-center items-center'>
+          <img class='w-32 mx-auto rounded-sm' src="${hijab}" alt='Tooltip Image' />
+          <span class='mx-auto font-bold'>Shakila Shafiq</span>
+        </div>
+      `}
                     >
                       SSH
                     </span>
@@ -241,11 +243,11 @@ const Routine = () => {
                   }
                   data-tooltip-id="my-tooltip"
                   data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1748681319.jpg' alt='Tooltip Image' />
-                  <span class='mx-auto font-bold'>Md. Shaheen Alam</span>
+                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1715161624.jpg' alt='Tooltip Image' />
+                  <span class='mx-auto font-bold'>Dr. Md. Abul Kalam</span>
                 </div>"
                 >
-                  MSAM
+                  DMAK
                 </span>
                 <br />
                 <span className="px-1 text-fuchsia-400 tracking-widest font-bold irish-grover">
@@ -317,8 +319,8 @@ const Routine = () => {
                   }
                   data-tooltip-id="my-tooltip"
                   data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718082685.jpg' alt='Tooltip Image' />
-                  <span class='mx-auto font-bold'>Dr. Sanjoy Kumar Biswas</span>
+                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1745303382.jpg' alt='Tooltip Image' />
+                  <span class='mx-auto font-bold'>Shemanta Kumar Biswas</span>
                 </div>"
                 >
                   SKB
@@ -473,10 +475,12 @@ const Routine = () => {
                         document.getElementById("my_modal_2").showModal()
                       }
                       data-tooltip-id="my-tooltip"
-                      data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718182543.jpg' alt='Tooltip Image' />
-                  <span class='mx-auto font-bold'>Shakila Shafiq</span>
-                </div>"
+                      data-tooltip-html={`
+        <div class='p-2 flex flex-col gap-3 justify-center items-center'>
+          <img class='w-32 mx-auto rounded-sm' src="${hijab}" alt='Tooltip Image' />
+          <span class='mx-auto font-bold'>Shakila Shafiq</span>
+        </div>
+      `}
                     >
                       SSH
                     </span>
@@ -499,8 +503,8 @@ const Routine = () => {
                   }
                   data-tooltip-id="my-tooltip"
                   data-tooltip-html="<div class='p-2 flex flex-col gap-3 justify-center items-center'>
-                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1718082685.jpg' alt='Tooltip Image' />
-                  <span class='mx-auto font-bold'>Dr. Sanjoy Kumar Biswas</span>
+                  <img class='w-32 mx-auto rounded-sm' src='https://niter.edu.bd/storage/facultyMember/1745303382.jpg' alt='Tooltip Image' />
+                  <span class='mx-auto font-bold'>Shemanta Kumar Biswas</span>
                 </div>"
                 >
                   SKB
