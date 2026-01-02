@@ -21,11 +21,11 @@ const Docs = () => {
             <Link
               target="_blank"
               to={
-                "https://drive.google.com/drive/folders/1LwQv1YLCjmE7kgWaoX-jYaCHFbdlDigm"
+                "https://drive.google.com/drive/folders/1HGWKTUscwXwKeLbYU-zwcvqFs3yo6zKs"
               }
               className="btn border-white hover:border-white bg-transparent font-medium text-white transition-colors transition-bg duration-300 ease-in-out hover:bg-gradient-to-tl hover:from-blue-600 hover:via-transparent hover:to-blue-600"
             >
-              1st Semester Fundamentals
+              2nd Semester Fundamentals
             </Link>
           </div>
           <div>
